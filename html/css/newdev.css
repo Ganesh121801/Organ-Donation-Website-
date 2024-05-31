@@ -1,0 +1,54 @@
+
+
+html{
+    background-image: url(https://media.istockphoto.com/id/1291652346/photo/human-kidney-in-hands.jpg?b=1&s=170667a&w=0&k=20&c=TfPImQbizfnwa3kRgHgUQC8Vq1vseKm-OYpG0YSkmAA=);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+body{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+.wrapper{
+    background: url(bg1.jpg) no-repeat;
+    background-size:cover;
+    height: 80px;
+    }
+    .navbar{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 191, 255);
+    }
+    .navbar .logo{
+        width: 85px;
+        height: 60px;
+        padding: 20px 100px;
+        }
+    .navbar ul{
+    float: right;
+    margin-right: 20px;
+    }
+    .navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+    }
+    .navbar ul li a{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+    }
+    .navbar ul li a.active,
+    .navbar ul li a:hover{
+    background: rgb(0, 0, 0);
+    border-radius: 2px;
+}
